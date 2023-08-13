@@ -20,7 +20,7 @@ You need to install the following Python libraries:
 
 # Data
 ## Distributed LASSO Problem
-The link to the data for the LASSO problem: https://drive.google.com/drive/folders/1fbPHrS1ICw4bvawPwJJNCiqBUjdLrDx2?usp=sharing
+The link to the data for the distributed LASSO problem: https://drive.google.com/drive/folders/1fbPHrS1ICw4bvawPwJJNCiqBUjdLrDx2?usp=sharing
 
 ## Distributed Linear Regression problem
 For the distributed linear regression problem I used MNIST dataset 
