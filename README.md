@@ -21,6 +21,8 @@ You need to install the following Python libraries:
 # Data
 ## Distributed LASSO Problem
 The link to the data for the distributed LASSO problem: https://drive.google.com/drive/folders/1fbPHrS1ICw4bvawPwJJNCiqBUjdLrDx2?usp=sharing
+The folder contains four directories for different SNR values, in each directory there are data.npy and labels.npy files. 
+When you load the data set allow_pockle=True.
 
 ## Distributed Linear Regression problem
 For the distributed linear regression problem I used MNIST dataset 
