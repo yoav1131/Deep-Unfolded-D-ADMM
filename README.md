@@ -26,5 +26,8 @@ The folder contains four directories for different SNR values, in each directory
 
 When you load the data set allow_pockle=True.
 
-## Distributed Linear Regression problem
+## Distributed Linear Regression Problem
 For the distributed linear regression problem I used MNIST dataset.
+
+## Federated Learning Problem
+For the federated learning problem I used MNIST dataset.
