@@ -2,6 +2,7 @@
 
 # Introduction
 
+In this work we propose a method for disributed optimization called Unfolded Distibuted Method of Multipliers (UD-ADMM),  
 This repository implement the proposed the proposal D-ADMM algorithm and the unfolded D-ADMM
 
 # Python code
@@ -13,6 +14,7 @@ To execute the code you can use any Python IDE, we used PyCharm.
 
 You need to install the following Python libraries:
 * SciPy
+* tqdm
 * NumPy
 * PyTorch
 * Matplotlib
