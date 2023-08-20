@@ -2,7 +2,7 @@
 
 # Introduction
 
-In this work we propose a method for disributed optimization called Unfolded Distibuted Method of Multipliers (UD-ADMM),  
+In this work we propose a method for disributed optimization called Unfolded Distibuted Method of Multipliers (UD-ADMM).  
 This repository implement the proposed the proposal D-ADMM algorithm and the unfolded D-ADMM
 
 # Python code
@@ -30,6 +30,3 @@ When you load the data set allow_pockle=True.
 
 ## Distributed Linear Regression Problem
 For the distributed linear regression problem I used MNIST dataset.
-
-## Federated Learning Problem
-For the federated learning problem I used MNIST dataset.
