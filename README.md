@@ -1,10 +1,13 @@
 # Deep-Unfolded-D-ADMM
 ![P=50 graph](https://github.com/yoav1131/Deep-Unfolded-D-ADMM/assets/61379895/27bada02-b87a-432d-8817-011b7c59b950)
 
-# Introduction
+## Introduction
+In this work we propose a method for disributed optimization called Unfolded Distibuted Method of Multipliers (D-ADMM), which
+facilitates the application of D-ADMM with limited communications using the emerging deep unfolding methodology. 
+Please refer to our paper for more detailes.
 
-In this work we propose a method for disributed optimization called Unfolded Distibuted Method of Multipliers (UD-ADMM).  
-This repository implement the proposed the proposal D-ADMM algorithm and the unfolded D-ADMM
+## Usage
+This code has been tested on Python 3.9.7, PyTorch 1.10.2 and CUDA 11.1
 
 # Python code
 ## Description
@@ -14,20 +17,33 @@ The code includes one file named 'main.py' in which the DNN model is being defin
 To execute the code you can use any Python IDE, we used PyCharm.
 
 You need to install the following Python libraries:
-* SciPy
+* scipy
 * tqdm
-* NumPy
-* PyTorch
-* Matplotlib
-* NetworknX
+* numpy
+* pytorch
+* matplotlib
+* networknx
+* TensorboardX: https://github.com/lanpa/tensorboardX
+
+### Training
+Example with 50 agents
+'''
+python dlasso.py --exp_name dlasso_with_50_agents --data simulated --batch_size 100 --P 50 --graph_prob 0.12 --case dlasso --model diff --valid True
+'''
+
+### Testing
+Example with 50 agents
+'''
+python dlasso.py --exp_name dlasso_with_50_agents --eval --valid False
+'''
 
 # Data
 ## Distributed LASSO Problem
 The link to the data for the distributed LASSO problem: https://drive.google.com/drive/folders/1fbPHrS1ICw4bvawPwJJNCiqBUjdLrDx2?usp=sharing
 
-The folder contains four directories for different SNR values {-2, 0, 2, 4}, in each directory there are data.npy and labels.npy files. 
+The folder contains four directories for different SNR values {-2, 0, 2, 4}, in each directory there is a dataset_{snr}_snr.npy file which contain the data and labels. 
 
-When you load the data set allow_pockle=True.
+When you load the data set allow_pickle=True.
 
 ## Distributed Linear Regression Problem
 For the distributed linear regression problem I used MNIST dataset.
