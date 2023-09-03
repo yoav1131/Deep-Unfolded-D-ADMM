@@ -2,8 +2,8 @@
 ![P=50 graph](https://github.com/yoav1131/Deep-Unfolded-D-ADMM/assets/61379895/27bada02-b87a-432d-8817-011b7c59b950)
 
 ## Introduction
-In this work we propose a method for disributed optimization called Unfolded Distibuted Method of Multipliers (D-ADMM), which
-facilitates the application of D-ADMM with limited communications using the emerging deep unfolding methodology. 
+In this work we propose a method that solves disributed optimization problem called Unfolded Distibuted Method of Multipliers(D-ADMM), which enables D-ADMM to operate reliably with a predefined and small number of messages exchanged by each agent using the emerging deep unfolding methodology. 
+Unfolded D-ADMM fully preserves the operation of D-ADMM, while leveraging data to tune the hyperparameters of each iteration of the algorithm. 
 
 Please refer to our paper for more detailes.
 
