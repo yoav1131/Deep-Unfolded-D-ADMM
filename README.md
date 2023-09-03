@@ -31,6 +31,10 @@ Example with 50 agents:
 
 '''
 python dlasso.py --exp_name dlasso_with_50_agents --data simulated --batch_size 100 --P 50 --graph_prob 0.12 --case dlasso --model diff --valid True
+
+or
+
+python dlr.py --exp_name dlasso_with_50_agents --data simulated --batch_size 100 --P 50 --graph_prob 0.12 --case dlasso --model diff --valid True
 '''
 
 ### Testing
@@ -38,6 +42,11 @@ Example with 50 agents:
 
 '''
 python dlasso.py --exp_name dlasso_with_50_agents --eval --valid False
+
+or 
+
+python dlr.py --exp_name dlasso_with_50_agents --eval --valid False
+
 '''
 
 # Data
