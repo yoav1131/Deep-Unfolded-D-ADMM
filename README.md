@@ -4,6 +4,7 @@
 ## Introduction
 In this work we propose a method for disributed optimization called Unfolded Distibuted Method of Multipliers (D-ADMM), which
 facilitates the application of D-ADMM with limited communications using the emerging deep unfolding methodology. 
+
 Please refer to our paper for more detailes.
 
 ## Usage
@@ -26,13 +27,15 @@ You need to install the following Python libraries:
 * TensorboardX: https://github.com/lanpa/tensorboardX
 
 ### Training
-Example with 50 agents
+Example with 50 agents:
+
 '''
 python dlasso.py --exp_name dlasso_with_50_agents --data simulated --batch_size 100 --P 50 --graph_prob 0.12 --case dlasso --model diff --valid True
 '''
 
 ### Testing
-Example with 50 agents
+Example with 50 agents:
+
 '''
 python dlasso.py --exp_name dlasso_with_50_agents --eval --valid False
 '''
