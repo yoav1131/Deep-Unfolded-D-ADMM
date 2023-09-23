@@ -1,4 +1,5 @@
 # Deep Unfolded D-ADMM
+## Proper colored network with P = 50 agents
 ![P=50 graph](https://github.com/yoav1131/Deep-Unfolded-D-ADMM/assets/61379895/27bada02-b87a-432d-8817-011b7c59b950)
 
 ## Unfolded D-ADMM for LASSO at agent p in iteration k. Dashed green and blue blocks are the primal and dual updates, respectively. Red fonts represent trainable parameters
@@ -55,7 +56,7 @@ python dlr.py --exp_name dlasso_with_50_agents --eval --valid False
 
 # Data
 ### Distributed LASSO Problem
-The link to the data for the distributed LASSO problem: https://drive.google.com/drive/folders/1fbPHrS1ICw4bvawPwJJNCiqBUjdLrDx2?usp=sharing
+Please refer to the  [data](https://drive.google.com/drive/folders/1fbPHrS1ICw4bvawPwJJNCiqBUjdLrDx2?usp=sharing) for the distributed LASSO problem.
 
 The folder contains four directories for different SNR values {-2, 0, 2, 4}, in each directory there is a dataset_{snr}_snr.npy file which contain the data and labels. 
 
