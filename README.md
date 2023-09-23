@@ -22,7 +22,6 @@ This code has been tested on Python 3.9.7, PyTorch 1.10.2 and CUDA 11.1
 * tqdm
 * numpy
 * pytorch: https://pytorch.org
-* torch_geometric
 * matplotlib
 * networknx
 * TensorboardX: https://github.com/lanpa/tensorboardX
