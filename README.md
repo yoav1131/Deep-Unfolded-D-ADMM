@@ -1,10 +1,10 @@
 # Deep Unfolded D-ADMM
 ![P=50 graph](https://github.com/yoav1131/Deep-Unfolded-D-ADMM/assets/61379895/27bada02-b87a-432d-8817-011b7c59b950)
 
-### Unfolded D-ADMM for LASSO at agent p in iteration k. Dashed green and blue blocks are the primal and dual updates, respectively. Red fonts represent trainable parameters
+## Unfolded D-ADMM for LASSO at agent p in iteration k. Dashed green and blue blocks are the primal and dual updates, respectively. Red fonts represent trainable parameters
 ![update_step(3)](https://github.com/yoav1131/Deep-Unfolded-D-ADMM/assets/61379895/40ff6d9a-eb57-460f-9167-ef356df5df3b)
 
-### Unfolded D-ADMM for linear regression model illustration at agent p in iteration k. Dashed green and blue blocks are the primal update and the dual update, respectively. Red fonts represent trainable parameters
+## Unfolded D-ADMM for linear regression model illustration at agent p in iteration k. Dashed green and blue blocks are the primal update and the dual update, respectively. Red fonts represent trainable parameters
 ![d-lr primal dual update](https://github.com/yoav1131/Deep-Unfolded-D-ADMM/assets/61379895/3ebb0ed9-82ff-4516-829c-d4d97a7a54d3)
 
 ## Introduction
